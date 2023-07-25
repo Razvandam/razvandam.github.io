@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Screen Recorder</title>
+    <link rel="stylesheet" href="dist/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="titleContainer">
+          <h1 class="title">Screen Recorder</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="mainContainer">
+        <div class="recordedVideoContainer">
+          <h2 class="subTitle">Video recorder</h2>
+          <video src="" class="videoFeedback" autoplay></video>
+          <div class="buttons">
+            <button class="startRecording">Record Screen</button>
+            <button class="stopRecording" disabled>Stop Recording</button>
+          </div>
+        </div>
+        <div class="recordedVideoContainer">
+          <h2 class="subTitle">Recorded video</h2>
+          <video src="" class="recordedVideo" controls autoplay></video><br />
+          <div class="downloadButton">
+            <a class="downloadVideo" disabled> Download </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="dist/main.js"></script>
+  </body>
+</html>
